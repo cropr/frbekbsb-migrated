@@ -1,0 +1,14 @@
+
+
+# docker data
+/docker/data-mysql
+.env
+
+
+# source 
+/vendor
+/config/local.php
+/secrets
+
+# operations
+/logs-apache2

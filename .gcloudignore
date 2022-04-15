@@ -1,0 +1,9 @@
+.gcloudignore
+.git
+.gitignore
+
+# PHP Composer dependencies:
+/vendor
+/docker
+docker-compose.yaml
+/index.php

@@ -1,0 +1,57 @@
+version: '3'
+services:
+  webserver:
+    build:
+      context: './docker/${PHP_VERSION}'
+    container_name: '${PROJECT_NAME}-apache2'
+    restart: always
+    ports:
+      - '${APACHE_UNSECURE_PORT}:80'
+      - '${APACHE_SECURE_PORT}:443'
+    links:
+      - database
+    volumes:
+      - '${APACHE_DOCUMENT_ROOT}:/var/www/html'
+      - '${PHP_INI}:/usr/local/etc/php/php.ini'
+      - '${APACHE_VHOSTS_DIR}:/etc/apache2/sites-enabled'
+      - '${APACHE_LOG_DIR}:/var/log/apache2'
+    environment:
+      APACHE_DOCUMENT_ROOT: /var/www/html
+      PMA_PORT: '${PMA_PORT}'
+      MYSQL_ROOT_PASSWORD: '${MYSQL_ROOT_PASSWORD}'
+  database:
+    build:
+      context: './docker/${MYSQL_VERSION}'
+    container_name: '${PROJECT_NAME}-mysql'
+    restart: always
+    ports:
+      - '127.0.0.1:${MYSQL_PORT}:3306'
+    volumes:
+      - '${MYSQL_INITDB_DIR-./config/initdb}:/docker-entrypoint-initdb.d'
+      - '${MYSQL_DATA_DIR-./data/mysql}:/var/lib/mysql'
+      - '${MYSQL_LOG_DIR-./logs/mysql}:/var/log/mysql'
+    environment:
+      MYSQL_ROOT_PASSWORD: '${MYSQL_ROOT_PASSWORD}'
+      MYSQL_DATABASE: '${MYSQL_DATABASE}'
+      MYSQL_USER: '${MYSQL_USER}'
+      MYSQL_PASSWORD: '${MYSQL_PASSWORD}'
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: '${PROJECT_NAME}-phpmyadmin'
+    links:
+      - database
+    environment:
+      PMA_HOST: database
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: '${MYSQL_ROOT_PASSWORD}'
+      MYSQL_ROOT_PASSWORD: '${MYSQL_ROOT_PASSWORD}'
+      MYSQL_USER: '${MYSQL_USER}'
+      MYSQL_PASSWORD: '${MYSQL_PASSWORD}'
+      UPLOAD_LIMIT: '${PMA_UPLOAD_LIMIT}'
+      MEMORY_LIMIT: '${PMA_MEMORY_LIMIT}'
+    ports:
+      - '${PMA_PORT}:80'
+    volumes:
+      - /sessions
+      - '${PHP_INI}:/usr/local/etc/php/conf.d/php-phpmyadmin.ini'

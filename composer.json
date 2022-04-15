@@ -1,0 +1,11 @@
+{
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "require": {
+        "google/cloud": "^0.175.0",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}

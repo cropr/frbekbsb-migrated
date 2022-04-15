@@ -1,0 +1,43 @@
+<?php
+	$Club          = $p_clubs['Club'];
+	$CreDate       = $p_clubs['CreDate'];
+	$SupDate       = $p_clubs['SupDate'];
+	$ModifDate     = $p_clubs['ModifDate'];
+	$ModifMat      = $p_clubs['ModifMat'];
+	$Ligue         = $p_clubs['Ligue'];
+	$Federation    = $p_clubs['Federation'];
+	$Intitule      = stripslashes($p_clubs['Intitule']);
+	$Abbrev        = stripslashes($p_clubs['Abbrev']);
+	$Local         = stripslashes($p_clubs['Local']);
+	$Adresse       = stripslashes($p_clubs['Adresse']);
+	$CodePostal    = $p_clubs['CodePostal'];
+	$Localite      = $p_clubs['Localite'];
+	$Telephone     = $p_clubs['Telephone'];
+	$WebSite       = $p_clubs['WebSite'];
+	$WebMaster     = $p_clubs['WebMaster'];
+	$Forum         = $p_clubs['Forum'];
+	$Email         = $p_clubs['Email'];
+//	$Mandataire    = $p_clubs['Mandataire'];
+//	$MandataireNr  = $p_clubs['MandataireNr'];	
+	$BqueCompte    = $p_clubs['BqueCompte'];
+	$BqueBIC       = $p_clubs['BqueBIC'];
+	$PresidentMat  = $p_clubs['PresidentMat'];
+	$ViceMat       = $p_clubs['ViceMat'];
+	$TresorierMat  = $p_clubs['TresorierMat'];
+	$SecretaireMat = $p_clubs['SecretaireMat'];
+	$TournoiMat    = $p_clubs['TournoiMat'];
+	$JeunesseMat   = $p_clubs['JeunesseMat'];
+	$InterclubMat  = $p_clubs['InterclubMat'];
+	$JourDeJeux    = DecodeJoursDeJeux ($p_clubs['JoursDeJeux']);
+	$PresidentDiv  = GetMembre($p_clubs['PresidentMat'], true);
+	$ViceDiv       = GetMembre($p_clubs['ViceMat'],true);
+	$TresorierDiv  = GetMembre($p_clubs['TresorierMat'], true );
+	$SecretaireDiv = GetMembre($p_clubs['SecretaireMat'], true);
+	$TournoiDiv    = GetMembre($p_clubs['TournoiMat'], true);
+	$JeunesseDiv   = GetMembre($p_clubs['JeunesseMat'], true);
+	$InterclubDiv  = GetMembre($p_clubs['InterclubMat'], true );
+
+	$SiegeSocial   = stripslashes(str_replace("#","\n",$p_clubs['SiegeSocial']));
+    $BqueTitulaire = stripslashes(str_replace("#","\n",$p_clubs['BqueTitulaire']));
+	$Divers        = stripslashes(str_replace("#","\n",$p_clubs['Divers']));
+?>

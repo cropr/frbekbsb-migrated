@@ -1,0 +1,486 @@
+0	Ligue Bruxelles Capitale (FEFB) - Liga Brussel Hoofdstad (VSF)
+100	Liga Antwerpen (VSF)
+101	KASK
+108	Merksem
+109	Borgerhout
+114	Mechelen
+118	*Mat of Pat
+121	Turnhout
+123	*Ekeren
+124	Deurne
+128	Beveren
+130	Hoboken
+132	Oude God Mortsel
+134	Schilde
+135	Geel
+136	Sint-Anneke
+138	*Bornem
+141	Schoten
+143	Temse
+152	*Paroza
+153	Rijkevorsel
+162	Mol
+164	*Zoersel
+166	TSMechelen
+167	*Essen
+170	*Berchem
+172	Willebroek
+174	Brasschaat
+175	Halse
+176	Westerlo
+177	*Oud Deurne
+180	*St.-Amands
+182	Noorderwijk
+185	Lille
+186	*OSK
+187	*Wommelgem
+188	PVH Antwerpen
+190	Burcht
+191	KAGS Mortsel
+192	Lier
+193	Boom
+194	ChessLooks Lier
+200	Liga Vlaams-Brabant (VSF)
+201	CREB Bruxelles
+203	*Fous du Roy
+204	Excelsior
+205	*Ukkel
+207	2 Fous Diogène
+208	Sinelnikov St Josse
+209	Anderlecht
+210	*Bene-Schaak
+226	Europchess
+228	Dworp
+229	Woluwé
+230	Leuven Centraal
+231	Dolle Toren Leuven
+232	Dark Knights Louvain
+233	Halle
+234	Schaakhuis Leuven
+235	Zichemse Schaakclub
+238	*Zaventem
+239	Boitsfort
+240	SCRR (Brussel)
+241	*Tervuren
+243	*LV Leuven
+244	Brussels Chess Club
+245	*Roque Anderlecht
+249	Ruisbroek
+250	jeugdschaak.be
+253	*Dragon Bleu
+260	Kapelle-op-den-Bos
+261	Opwijk
+263	*Aarschot
+266	*Desperado Leuven
+267	*Wespelaar
+268	*Londerzeel
+269	*Roosdaal
+270	*Schaerbeek
+271	*Le Prestige Bruxelles
+272	*Tibéchecs
+273	*Grand Roque Woluwé
+274	*Uccle
+278	Le Pantin
+285	*Bemilchess
+288	*Capablanca
+289	Chant d'Oiseau
+290	Epicure
+291	*Chess Square
+299	*Ternat
+299	Ligue Bruxelles Capitale (FEFB)
+300	Liga West Vlaanderen (VSF)
+301	KOSK Oostende
+302	KISK Ieper
+303	KBSK Brugge
+304	Tielt
+305	Kortrijk
+307	Bredene
+309	Roeselare
+311	*BSV
+312	Gistel
+313	Waregem
+314	*Assebroek
+318	Blankenberge
+320	S.K. Gazel
+321	*Fortis Bank Brugge
+322	Veurne
+334	Varsenare
+340	Izegem
+351	Knokke
+352	Oostende Pion 68
+353	Wervik
+358	Heist
+359	*Nieuwpoort
+360	*Beernem
+361	Poperinge
+362	Oostkamp
+363	Zwevegem
+400	Liga Oost Vlaanderen (VSF)
+401	KGSRL Gent
+402	Jean Jaurès Gent
+403	De Drie Torens Gent (old)
+404	De Drie Torens Gent
+408	Gentbrugge
+410	St.-Niklaas
+417	Aalst
+418	Geraardsbergen
+422	MSV
+425	Dendermonde
+430	Landegem
+432	Wetteren
+433	*Eke-Nazareth
+434	Merelbeke
+436	LSV-Chesspirant
+438	Deinze
+442	*Mariakerke
+460	Oudenaarde
+461	*Generale Gent
+462	Zottegem
+464	*St-Gillis-Waas
+465	Artevelde
+466	*Zwijnaarde
+470	*Onder Den Toren
+471	Wachtebeke
+472	Mercatel
+473	*Pion Aalter
+474	*Latem
+475	Aalter
+476	*Denderleeuw
+477	Chesspirant
+478	FCH Zottegem
+499	VSF
+501	CREC Charleroi
+505	Carnières
+506	Grand-Mons
+508	Mouscron
+511	La Louvière
+514	Fontaine-L'Evêque
+518	Soignies
+521	Tournai
+523	*Binche
+525	Bourlette - Anderlues
+526	*Montagnards
+528	*Montignies
+531	*Tour Charles-Quint
+532	*Lobbes
+533	Lessines
+537	*Quiévrain
+538	Fleurus
+539	*Sud-Hainaut
+540	*Le Gazomat Gilly
+541	Leuze-en-Hainaut
+542	*Merbes-le-Chateau
+543	*Framières
+546	*Mons-Hainaut
+547	Binche
+548	Caissa Europe
+549	St.-Ghislain
+550	Enquelinnes
+551	HCC Obourg
+552	L'Échiquier Rebecquois
+569	*Chess Club Zen
+590	Chess School Saint-Ghislain
+599	FEFB
+600	Ligue Liège (FEFB)
+601	CRELEL Liège
+603	Verviers
+604	KSK47 Eynatten
+607	Rochade Eupen
+609	Anthisnes
+613	Flémalle
+616	Esneux
+618	Échiquier Mosan
+619	Welkenraedt
+621	Ans-Loncin
+622	Herve
+623	St-Vith
+624	*Eynatten
+625	*Raeren
+626	*Herbesthal
+627	Wirtzfeld
+631	*Blégny
+638	*Ans
+639	*En Passant
+640	*Huy
+641	Malmedy
+642	*Blégny
+643	Spa
+644	*La Tour Blanche
+645	*Huy Dardania
+646	*Seraing
+666	Le 666
+699	SvDB
+700	Liga Limburg (VSF)
+701	Hasselt
+703	Eisden
+704	*Bree
+705	MSK-Dilsen
+707	Tessenderlo
+708	Lommel
+709	Houthalen
+710	*Rotem
+712	Landen
+713	Leopoldsburg
+714	Overpelt
+715	Boutersem
+717	*Zonhoven
+718	Z-Z-Bolder
+719	*Waterschei
+724	De Centrumpion
+725	Vlijtingen
+726	Neerpelt
+727	Genk
+732	Houthalen-Oost
+733	St.-Truiden
+735	*Bilzen
+736	Heusden
+737	Paal
+738	*Het Front Hasselt
+739	*Ambiorix Tongeren
+740	Tongeren
+741	Bilzen
+750	De Zandkorrel Hechtel
+751	SLim Houthalen-Oost
+752	*SLim Tongeren
+753	*SLim Houthalen
+754	SLim Genk
+755	*SLim Maaseik
+756	SLim Dilsen
+757	SLim Neerpelt
+758	*SLim Halen
+759	SLim Runkst
+760	Boseind Neerpelt
+761	SLim Achel
+762	Ter Duinen Hechtel
+763	SLim Bilzen
+764	De Zonnebloem Lummen
+765	De Beerring Beringen
+766	De Reinpad-Gelieren
+767	Eksel
+768	Helibel-Lille
+769	De Driesprong Geleen
+770	J.F. Kennedy Maastricht
+771	Scharn Maastricht
+772	Stedelijke Humaniora Dilsen
+800	Ligue Namur-Luxembourg (FEFB)
+801	*Nassogne
+807	*Trois Frontières
+809	*Bertrix
+810	Marche-en-Famenne
+811	*Arlon
+812	*Odeigne
+813	*Bastogne
+814	Etalle
+900	Ligue Namur (FEFB)
+901	Namur-Echecs
+902	Auvelais
+903	*Les Coperes
+906	*Rochefort
+907	*Palamède
+908	*Hastière
+909	Philippeville
+910	*Ludisan
+911	*Gembloux
+912	*Ciney
+950	Ligue Brabant Wallon
+951	Lasne-Waterloo
+952	Wavre
+953	Nivelles
+954	Rixensart
+955	*Dion
+956	*Ottignies L-L-N
+957	*Le Roquefort
+958	*Braine-le-Château
+959	*Fleurus
+960	L'Échiquier Rebecquois
+961	Braine Echecs
+998	FRBE
+999	Etranger
+1015	Testelt
+1017	European School Laken
+1018	European School IV Brussel
+1019	Sint-Barbaracollege Gent
+1020	S.K. Souburg
+1022	Reynaerdijn Kemzeke
+1024	GO Brugge School
+1025	GBS Voorheide Arendonk
+1026	Schaakmeester.be
+1601	S.V. Goes
+1610	Terneuzen
+1613	HWP Sas van Gent
+1700	Noord-Brabantse Schaakbond
+1702	Aarle-Rixtel
+1703	Aalst Waalre
+1704	Prinsenbeek
+1705	Berlicum
+1706	Bladel
+1707	Baronie Breda
+1708	HWB Breda
+1709	Bergen op Zoom
+1711	S.V. Caissa
+1712	S.V. Dongemond
+1713	S.V. Checkmate
+1714	S.V. De Combinatie
+1715	S.V. DAF
+1717	S.V. Deurne
+1718	S.C. Dongen
+1719	S.V. En  Passant
+1720	S.V. De Oude Toren
+1721	S.V. Eeuwig Schaak
+1722	S.V. D4
+1723	Eerste Goirlese Schaakclub
+1724	Eindhovense S.V.
+1726	Veghel
+1727	S.V. Eureka
+1728	E.V.S.
+1729	S.V. Gambiet
+1730	S.V. Garde
+1731	S.C. Gemert
+1732	Michielsgestel
+1733	S.V. Gennep
+1734	S.V. Het Kasteel
+1737	Unox Oss
+1738	Helmond S.C.
+1739	S.V. Bastion
+1740	HMC
+1741	De Schaakhoeve
+1742	S.V. De Kemppion
+1743	De Kentering
+1744	S.V. Sissa Luyksgestel
+1745	S.V. Twee Koningen
+1746	Mierlose S.C.
+1747	S.V. Nuenen
+1748	S.V. ODI
+1749	Rooise Dam- en Schaakvereniging
+1750	S.V. Oisterwijk
+1751	Osse Schaakvereniging
+1753	Ulvenhout
+1754	S.V. De Pion
+1755	St.Prom.Schoolschaak
+1756	T.S.V. Rochade
+1757	S.V. De Raadsheer
+1758	S.V. Steenbergen
+1759	S.V. Schijndel
+1760	S.V. Staunton
+1761	S.V. Vianen / DVP
+1762	S.V. Son en Breugel
+1763	Oirschot
+1764	S.V. Schavo
+1765	S.C. Sissa Oirschot
+1766	S.V. Stukkenjagers
+1767	Jeugdschaakclub Haaren
+1768	J.S.C. De Schaakstek
+1769	S.V. Tivoli
+1770	S.V. De Toren
+1771	S.V. 't Paardje
+1772	S.V. De Variant
+1773	Roosendaalsch S.G.
+1774	S.V. Veldhoven
+1776	S.V. De Vrijpion
+1777	Sprang-Capelle
+1778	S.V. De Vughtse Toren
+1779	S.V. Waalwijk
+1780	S.V. Dubbelschaak '97
+1781	S.V. Wasbord
+1782	S.V. Woensdrecht
+1783	S.V. Woensel Lichttoren C.
+1784	De Drie Torens
+1785	S.V. UNK
+1786	S.V. Zwart Wit
+1787	S.V. Rokade
+1788	JSC Udenhout
+1789	S.V. Geldrop
+1790	Recr.S.V. Den Bosch Nrd.
+1791	J.S.C. Moergestel
+1792	S.V. Groot-Ravenstein
+1794	S.V. De Zandloper
+1796	Loon op Zand
+1797	S.V. De Witte Molen
+1798	S.V. Triple-Pion
+1799	Kerkdriel
+1900	Limburgse Schaakbond
+1901	Arx
+1902	Bergen
+1903	Brunssum
+1904	Geleen
+1905	DJC Stein
+1906	DJZ Noorbeek
+1907	Weert
+1908	GESS
+1909	Grubbenvorst
+1910	Heerlen
+1911	Hoensbroek
+1912	Vaals
+1913	Horst
+1914	HSDV Helden
+1915	Kerkrade
+1916	*Stramproy
+1917	Leudal
+1918	Maasbracht
+1919	Schinnen
+1920	Eijsden
+1921	MSV Maastricht
+1922	Reuver
+1923	Roermond
+1924	Schaesberg
+1925	Ultimo Vero
+1926	Tegelen
+1927	Venray
+1928	Venlo
+1929	*VSM Maastricht
+1930	*Landgraaf
+1931	Meerssen
+1932	Postertoren
+1933	Voerendaal
+1934	Valkenburg/Geul
+1936	Elsloo
+1937	*Fortuna Geleen
+1938	Blerick
+1940	*J'Adoube Maastricht
+1941	*Simpelveld
+1943	*Caissa Geleen
+1944	Schaakvelden
+1961	OBS De Maaskei Stein
+1962	OBS De Maaskei Urmond
+1963	JF Kennedy School Maastricht
+1964	Bernard Lievegoed School Maastricht
+1965	De Triviant Stein
+1971	Adelante
+1972	Montessori BS Maastricht
+1973	De Schakel
+1974	De Keerkring BS Cadier en Keer
+50001	Belgium
+50002	Canada
+50003	Denmark
+50004	Spain
+50005	France
+50006	Germany
+50007	Italy
+50008	Lithuania
+50009	Luxembourg
+50010	The Netherlands
+50011	Norway
+50012	Poland
+50013	Romania
+50014	Slovenia
+50015	Turkey
+50016	United Kingdom
+50017	United States of America
+50018	NATO
+50019	Hungary
+50020	Estonia
+50021	Canada 2
+50022	Latvia
+50023	Veterans
+50024	Veteran Captains
+50025	NATO 2
+50101	Russia
+50102	Canada
+50103	Israel
+50104	Portugal
+50112	Brazilia
+61603	Mülheim-Nord
+62446	Heinsberg
+62512	Xanten
+66311	Euskirchen
+1471	S.S.V. Klim-Op

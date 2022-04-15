@@ -1,0 +1,1 @@
+SELECT Matricule,Nom,Prenom,AnneeAffilie AS aff,Club,Federation AS Fed,ClubTransfert AS trf,ClubOld FROM signaletique where ClubTransfert > 1 order by Club,Nom,Prenom

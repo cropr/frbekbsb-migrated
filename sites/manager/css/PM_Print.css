@@ -1,0 +1,12 @@
+
+
+@media print {
+
+.div_0   	{ page-break-after: always; } /* Firefox IE6 */
+.table_1 	{ page-break-inside: avoid; } /* Firefox ONLY */
+
+.p_name  { color: #000099; }			/* OK */
+.pb_h1   { color: red; }				/* OK */
+
+.noprint {display: none;}				/* OK */
+}
