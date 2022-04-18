@@ -1,8 +1,15 @@
 <?php
 
-require 'vendor/autoload.php';
+namespace FrbeKbsb;
 
 use Google\Cloud\SecretManager\V1\SecretManagerServiceClient;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+
+require 'vendor/autoload.php';
+
 
 /**
 * get the secret from the Goolge Secret Manager
@@ -13,6 +20,12 @@ use Google\Cloud\SecretManager\V1\SecretManagerServiceClient;
 * @return 	array	the value of the secret (typically a json like object)
 * @author 	Ruben Decrop
 */
+
+
+class Mailer
+{
+    protected 
+}
 
 function get_mailservice($name, $version='latest') {
 

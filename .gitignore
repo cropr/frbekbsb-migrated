@@ -8,7 +8,8 @@
 # source 
 /vendor
 /config/local.php
-/secrets
+/secrets/*.json
+/secrets/*.yaml
 
 # operations
 /logs-apache2
