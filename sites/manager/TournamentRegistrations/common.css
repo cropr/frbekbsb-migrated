@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#fiche_resp_jr, #div_loggin, #div_menu, #ecoles, #liste_equipes, .div_conteneur_form, #div_transfert, #etapes_int, #div_password {
+    width: 640px;
+    margin: 0 auto;
+}
+
+#form_creation_licences_g label, #form_creation_compte_resp_jr label,
+#form_loggin label, #detail_etape_jef label, #detail_ecole label,
+#detail_equipe label, #detail_etape_int label, .labels_verticaux label, .div_conteneur_form label {
+    display: block; /* La balise devient de type block. */
+    width: 150px;
+    float: left;
+}
+
+p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+h3 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+input {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+fieldset {
+    background-color: #d7eec3;
+}
+
+#create_licence_G {
+    background-color: #eaffe2;
+}
+
+.petit {
+    display: inline-block;
+    font-size: 9px;
+}
+
+.moyen {
+/ / display: inline-block;
+    font-size: 10px;
+}
+
+input[readonly] {
+    background-color: darkgrey;
+}
+
+div.ui-datepicker {
+    font-size: 10px;
+}
+
+#liste_resultats, #liste_resultats_int, #liste_jr_jef_recherche, #liste_jr_int_recherche, #liste_jr_cri_recherche, #log {
+    font-family: Courier New, Courier, modern, monospace;
+    font-size: 12px;
+}
+
+.bt_menu {
+    width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+    cellspacing: 1px;
+    cellpadding: 0;
+}
+
+#menu_licences_g td, th {
+    border: 0px;
+}
+
+table td, th {
+    border: 1px solid green;
+}
+
+tr {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.c0 {
+    background-color: white;
+}
+
+.c1 {
+    background-color: lightgreen;
+}
+
+.c2 {
+    background-color: pink;
+    color: black;
+}
+
+.c3 {
+    background-color: orange;
+    color: black;
+}
+
+.c4 {
+    background-color: lightblue;
+    color: black;
+}
+
+/* Rend les boutons contenant les images invisibles*/
+.boutons_images {
+    border-width: 0px;
+    padding: 0px;
+}
+
+#table_liste_inscrits_jef td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#table_liste_licences_g td {
+    padding-top: 1px;
+    padding-bottom: 0px;
+}
+
+input.form_elo {
+    width: 50px;
+}
+
+#bt_menu_langue {
+    width: 30px;
+}
+
+#develop{
+    margin-left: 30px;
+    font-size: x-small;
+    font-style: italic;
+    color: blue;
+    float: right;
+}
+
+
+#dialogue {
+    border: 3px solid #000000;
+    padding: 2px 2px;
+    background: #dddd00;
+/ / overflow: auto;
+/ / zoom: 1;
+}
+
+div.ui-widget-content {
+    border: 3px solid black;
+    background: #cccccc;
+}
+
+div.ui-widget-header {
+    border: 1px solid black;
+    background: #fffb6c;
+}
+
+.ui-widget.ui-widget-content {
+    border: 3px solid red;
+    box-shadow: 0 0 5px 2px black;
+}
+
+.bordure_on {
+    border: 2px solid black;
+    padding: 1px
+}
+
+.flag_langue{
+    float: right;
+    margin: 0px 5px 0px 5px;
+}
+
+/* tables tablesorter*/
+
+table.tablesorter th {
+    cursor: pointer;
+    background-color: lightyellow;
+}
+
+th.tablesorter-headerUnSorted {
+/ / background-image: url(images/bg.gif);
+/ / background-repeat: no-repeat;
+/ / padding-right: 13 px;
+/ / background-position: right;
+}
+
+th.tablesorter-header {
+/ / background-image: url(images/bg.gif);
+/ / background-repeat: no-repeat;
+/ / padding-right: 13 px;
+/ / background-position: right;
+}
+
+th.tablesorter-headerDesc {
+    background-image: url(images/desc.gif);
+    background-repeat: no-repeat;
+    padding-right: 13px;
+    background-position: right;
+}
+
+th.tablesorter-headerAsc {
+    background-image: url(images/asc.gif);
+    background-repeat: no-repeat;
+    padding-right: 13px;
+    background-position: right;
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #8dbdd8;
+}
+
+#signification_couleurs{
+    border: 1px solid #000000;
+    background-color: lightblue;
+    width: 380px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+#signification_couleurs, #gestion_inscriptions{
+    border: 1px solid #000000;
+    background-color: lightblue;
+    width: 500px;
+    padding: 10px;
+}
+
+hr {
+    border: 2px solid #AAAAAA;
+}

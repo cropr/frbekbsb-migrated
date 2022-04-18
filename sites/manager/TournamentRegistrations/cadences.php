@@ -1,0 +1,55 @@
+<?php
+$cad_std = array();
+$cad_std[1] = '105 min/40 coups + 15 min. QPF';
+$cad_std[2] = '120 min/40 coups + 15 min. avec incr. 30" à partir du 40ème coup';
+$cad_std[3] = '120 min/40 coups + 30 min. QPF';
+$cad_std[4] = '120 min/10 coups + 30 min. avec incr. 30" à partir du 40ème coup';
+$cad_std[5] = '120 min QPF';
+$cad_std[6] = '150 min QPF';
+$cad_std[7] = '60 min QPF';
+$cad_std[8] = '60 min avec incrément de 30"';
+$cad_std[9] = '65 min QPF';
+$cad_std[10] = '75 min avec incrément de 30"';
+$cad_std[11] = '90 min/40 coups + 15 min avec incr. 30" à partir du 1er coup';
+$cad_std[12] = '90 min/40 coups + 30 min avec incr. 30" à partir du 1er coup';
+$cad_std[13] = '90 min avec incrément de 30"';
+$cad_std[14] = 'various - other';
+
+$cad_rap = array();
+$cad_rap[1] = '10 min. avec incr. 10"';
+$cad_rap[2] = '10 min. avec incr. 15"';
+$cad_rap[3] = '10 min. avec incr. 5"';
+$cad_rap[4] = '11 min. QPF';
+$cad_rap[5] = '12 min. QPF';
+$cad_rap[6] = '13 min. avec incr. 3"';
+$cad_rap[7] = '13 min. avec incr. 5"';
+$cad_rap[8] = '15 min. QPF';
+$cad_rap[9] = '15 min. avec incr. 10"';
+$cad_rap[10] = '15 min. avec incr. 15"';
+$cad_rap[11] = '15 min. avec incr. 5"';
+$cad_rap[12] = '20 min. QPF';
+$cad_rap[13] = '20 min. avec incr. 10"';
+$cad_rap[14] = '20 min. avec incr. 15"';
+$cad_rap[15] = '20 min. avec incr. 5"';
+$cad_rap[16] = '25 min. QPF';
+$cad_rap[17] = '25 min. avec incr. 10"';
+$cad_rap[18] = '25 min. avec incr. 15"';
+$cad_rap[19] = '25 min. avec incr. 5"';
+$cad_rap[20] = '30 min. QPF';
+$cad_rap[21] = '45 min. QPF';
+$cad_rap[22] = '8 min. avec incr. 4"';
+$cad_rap[23] = 'various - other';
+
+$cad_bli = array();
+$cad_bli[1] = '3 min. avec incr. 2"';
+$cad_bli[2] = '3 min. avec incr. 3"';
+$cad_bli[3] = '4 min. avec incr. 2"';
+$cad_bli[4] = '4 min. avec incr. 3"';
+$cad_bli[5] = '5 min. QPF';
+$cad_bli[6] = '5 min. avec incr. 2"';
+$cad_bli[7] = '5 min. avec incr. 3"';
+$cad_bli[8] = '6 min. avec incr. 2"';
+$cad_bli[9] = '6 min. avec incr. 3"';
+$cad_bli[10] = '7 min. avec incr. 2" ';
+$cad_bli[11] = 'various - other';
+?>
