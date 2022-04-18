@@ -1,0 +1,127 @@
+body     {font-family:Arial, Helvetica, sans-serif;
+          font-size:12px;
+}
+
+table {
+    border: 1px solid green;
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+}
+
+table td, th {
+    border: 1px solid green;
+}
+
+tr {
+    background-color: #fff;
+}
+
+.alt{
+    background-color: #ccc;
+}
+
+select {
+    background-color: lightcyan;
+}
+
+div.ui-datepicker {font-size: 12px;}
+
+.liste_table {
+        background-color: lightcyan;
+}
+
+#liste_tournois, #monForm{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#details, #liste_parties {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#monForm p
+{
+    margin: 2px 0;
+}
+
+/* fieldset , legend */
+#monForm fieldset
+{
+    margin-bottom: 10px;
+    border: #CCC 1px solid;
+}
+
+#monForm fieldset:hover
+{
+    background-color: #FFF;
+}
+
+#monForm fieldset legend
+{
+    padding: 0 10px;
+    border-left: #CCC 1px solid;
+    border-right: #CCC 1px solid;
+    font-size: 1.2em;
+    color: #999;
+}
+
+/* Label */
+
+#monForm label
+{
+    background-color: lightcyan;
+    display: block;
+    width: 35%;
+    float: left;
+    padding-right: 1%;
+    text-align: right;
+}
+
+#form_note
+{
+    float: right;
+}
+
+#monForm label:hover
+{
+    font-weight: bold;
+}
+
+#monForm .form_label_nostyle
+{
+    background: none;
+}
+
+/* Input */
+#monForm input:not(.form_date) , #monForm select, #monForm textArea
+{
+    margin-left: 1%;
+    width: 62%;
+    border: #CCC 1px solid;
+}
+
+#monForm input:hover, #monForm select:hover, #monForm input:focus, #monForm select:focus
+{
+    border: #999 1px solid;
+    background-color: #DDEEFF;
+}
+
+.form_date
+{
+    margin-left: 1%;
+    border: #CCC 1px solid;
+    width: 30%;
+}
+
+/* 24 l */
+
+#details{
+    background-color: lightyellow;
+}
+
+#details_blanc, #details_noir {
+    width: 340px;
+    float: left;
+}
