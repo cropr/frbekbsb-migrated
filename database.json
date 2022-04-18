@@ -1,0 +1,17 @@
+
+{
+    "chcklist-file": "CHCKLIST_202204.ZIP",
+    "chcklist-full-date": "05/04/22",
+    "chcklist-sqlite-full-date": "05/04/22",
+    "fide-full-date": "05/04/22",
+    "fide-sqlite-full-date": "05/04/22",
+    "player-dbf-date": "05/04",
+    "player-dbf-file": "PLAYER_202204.ZIP",
+    "player-dbf-full-date": "05/04/22",
+    "players-sqlite-date": "05/04",
+    "players-sqlite-file": "players_202204.zip",
+    "players-sqlite-full-date": "05/04/22",
+    "sevilla-file": "sevilla.csv",
+    "swisschess-file": "swisschess.dbf",
+    "swissmanager-file": "swissmanager.xlsx"
+}
