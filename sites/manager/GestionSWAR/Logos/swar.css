@@ -1,0 +1,368 @@
+/* CSS Document */
+body { 
+	font-size: 10pt;  
+	font-family: verdana;
+	}
+
+/* Toutes les images sont alignées en leur milieu */	
+img {
+	vertical-align:middle;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #000000; 
+}
+
+a:hover {
+	text-decoration: underline;
+	background: LightGreen;
+}
+
+
+th {
+	background-color: #F0EDCE; 
+	font-size: 20pt; 
+	text-align: center;
+	}
+
+/*---------------------------------------*/
+/* Entete comprenant 2 tables imbriquees */
+/*---------------------------------------*/
+.tableLiens {
+	background-color: #FFFFEE; 
+	border:1px solid; 
+	border-spacing: 1px;
+	border-collapse:separate;
+	font-size: 10pt; 
+	font-family: Arial; 
+	margin: 3px;
+}
+
+.tdLiens { 
+	border:thin inset; 
+	margin:1;
+}
+
+
+/* Premiere table, englobant la deuxieme table */
+.tableEnteteA {
+	font-size: 10pt; 
+	font-family: Arial; 
+	border-collapse:separate;  
+	border:1px solid; 
+/*	width:90%;  */
+}
+.tableEntete50 {
+	font-size: 10pt; 
+	font-family: Arial; 
+	width:100%; 
+	border-collapse:separate;
+	border:1px solid red; 
+}
+
+/* Deuxieme table contenue dans la premiere */	
+.tableEnteteB {
+	font-size: 10pt; 
+	font-family: Arial; 
+	width:100%; 
+	border-collapse:separate;
+	border:1px solid; 
+}
+
+/* Description des 2 images à gauche et à droite de l'entete */
+.tdimage {
+	font-size: 20pt;
+	font-weight:800;
+	vertical-align:middle;
+	width:15%;
+	text-align: center;
+}
+
+/* La table du classement general */	
+.tableClassement {
+	border-spacing: 1px;
+	border-collapse:separate;
+	font-size: 10pt; 
+	font-family: Arial; 
+	border:1px solid; 
+	margin: 3px;
+}
+.tableClassement td {
+	border: 1px solid; 
+}
+/* La table des resultats entête */
+.tableResultats {
+	font-size: 10pt;
+	border:1px solid;
+	margin: 2px;
+}
+
+.tableResultats th {
+    font-size: 10pt;
+    border: thin solid #6495ed;
+}
+
+/*La table des résultats le reste */
+.tableOther {
+	background-color: #D8E8F7; 
+	text-align: center; 
+	font-size:14pt; 
+	font-weight:600; 
+}
+	
+/* Le Tableau des resultats */
+.tableTableau {
+	font-size: 10pt;
+	border:1px solid black;
+	margin: 2px;
+	border-spacing: 2px;
+}
+
+.tableTableau th {
+    font-size: 10pt;
+    border: thin solid #6495ed;
+}
+
+.tableTableau td {
+    font-size: 10pt;
+    border: thin solid #6495ed;
+}
+
+/* Couleur pour la case contre soi-même */
+.gray {
+	background-color:gray;
+}
+
+/* Les largeurs des colonnes des tableaux */
+.td150 { width:150px;}
+.td35 { width:35px;}
+.td25 { width:25px;}
+
+/* Les feuilles de résultats */
+.tableFeuilles {
+	background-color: #D8E8F7; 
+	font-size:10pt; 
+	font-weight:600; 
+}
+/* Description des categories dans les tables */
+.catego {
+	background-color: #C1C6C9; 
+	text-align: center; 
+	font-size:12pt; 
+	font-weight:600; 
+}
+
+
+/* La categorie en appariement est en rouge */
+.appariement {
+	color: red;
+}
+/* ----- */
+/* FICHE */
+/* ----- */
+.fiches {
+	text-align: left;
+}
+.ficheTitre {
+	font-size: 12pt;
+	font-weight:600;
+	text-align: left; 
+}
+
+.ficheTable {
+	font-size: 12pt;
+	border-spacing: 1px;
+}
+
+.fiche_td1 {
+	background-color: #FFCC99;
+	font-size: 10pt;
+}
+
+.fiche_td1r {
+	background-color: #FFCC99;
+	font-size: 10pt;
+	font-weight:600;
+	text-align: right ; 
+}
+
+.fiche_td2 {
+	background-color: #FFF5EE;
+	font-size: 10pt;
+}
+
+.fiche_td3 {
+	background-color: #FFFFFF;
+	font-size: 10pt;
+}
+
+.fiche_td4 {
+	background-color: #DCDCDC;
+	font-size: 10pt;
+}
+/* ----------------------------- */
+/* Grille Américaine             */
+/* ----------------------------- */
+.tableAmericaine {
+	font-size: 10pt; 
+	font-family: Arial; 
+	background-color: #D8E8F7;  
+	border:1px solid black;
+	margin: 1px;
+}
+	
+.tableAmericaine th {
+    font-size: 16pt;
+    background-color: #D8E8F7; 
+    border: 2px solid #2a2aff;
+}
+
+.trTitreAmericaine {
+	background-color:#bcbcbc;
+	font-weight:600;
+}
+
+/* ------------------------------ */
+/* Les grilles des rondes fermees */
+/* ------------------------------ */	
+.tableRondesFermees {
+	font-size: 10pt; 
+	font-family: Arial; 
+	background-color:#f0f0f0;
+	border-collapse:collapse;
+	margin: 1px;
+}
+.tableRondesFermees td {
+	border: 1px solid;
+}
+
+
+/* ----------------------------- */
+/* Titre pour les rondes fermees */
+/* ----------------------------- */
+.trTitre {
+	background-color:#bcbcbc;
+}
+
+/* Titres en BOLD (appariements alpha) */
+.trTitreAlpha {
+	background-color:#bcbcbc;
+	font-weight:600;
+}
+
+/* Couleur de la performance */
+.tdPerf {
+	background-color:#ceceff;
+	font-weight:600;
+	text-align: right;
+}
+
+/* La couleur des paves d'avancement CENTER*/	
+.tdAvancementCB {
+	background-color: LightGreen;
+	text-align: center;
+	font-weight:600;
+}
+
+/* Table avancements */
+.ta {
+	background-color:#f0f0f0;
+	font-weight:600;
+}
+.ta td {
+	border-width:1px;
+	background-color: LightGreen;
+	border-color: LightGreen;
+}
+
+/*             Grille de Berger        */
+/* La table des dates des appariements */
+.tablePairing {
+	border-spacing: 1px;
+	border-collapse:separate;
+	font-size: 12pt; 
+	font-family: Arial; 
+	background-color:#F0F0F0; 
+	empty-cells: hide;
+	margin: 12px;
+	border: 3px outset blue;
+	padding:5px;
+}
+
+.tdPairing {
+	border:thin inset black; 
+	margin:1; 
+	background-color: #D8E8F7; 
+	text-align: center; 
+	font-weight:600;
+	}
+.tdRound   { 
+	border:thin inset black ; 
+	margin:1; 
+	background-color: #D8F7CE; 
+	}
+.tdDates   { 
+	border:thin inset black ; 
+	margin:1; 
+	background-color: #FAE5EA; 
+	}
+.tdPairs   { 
+	border:thin inset black; 
+	margin:1; 
+	}
+	
+/* Description des autres titres dans les tables */
+.other  {
+	background-color: #D8E8F7; 
+	text-align: center; 
+	font-size:14pt; 
+	font-weight:600; 
+	}
+
+/* Table copyright a la fin du html */
+.tableCopyright {
+	background-color: #000090;
+	color: white;
+	font-size: 8pt;
+	border-spacing: 1px;
+	text-align: center;
+	border:thin inset black ; 
+	margin:3; 
+}
+
+td { padding-left: 3px; padding-right: 3px; }
+
+/* Alignement des cellules <td> Right Left Center */
+.tdr    {text-align: right; }
+.tdl    {text-align: left; }
+.tdc    {text-align: center; }
+
+/* Alignement des cellules <td> Right Left Center en ITALIC */
+.tdri   {text-align: right ; font-style:italic; }
+.tdli   {text-align: left  ; font-style:italic;  }
+.tdci   {text-align: center; font-style:italic;}
+
+/* Alignement des cellules <td> Right Left Center en BOLD*/
+.tdrb   {text-align: right ; font-weight:600;}
+.tdlb   {text-align: left  ; font-weight:600;}
+.tdcb   {text-align: center; font-weight:600;}
+
+/* Alignement des cellules <td> Right Left Center en ITALIC et BOLD */
+.tdrib   {text-align: right;  font-style:italic; font-weight:600;}
+.tdlib   {text-align: left;   font-style:italic; font-weight:600;}
+.tdcib   {text-align: center; font-style:italic; font-weight:600;}
+
+/* Alignement et largeur de la colonne résultats */
+.tdResult {text-align: center; font-weight:600; width: 50px;}
+
+/* Couleur des lignes PAIRES et IMPAIRES dans les classement */
+.odd    {background-color: #E5EDF5; }
+.even   {background-color: #ffffff; }
+
+
+/* --- UNIQUEMENT POUR LES PAGES IMPRIMEES: NE PAS TOUCHER --- */
+@media print {
+.div_break   { page-break-after: always;}
+.noprint {display: none;}
+}

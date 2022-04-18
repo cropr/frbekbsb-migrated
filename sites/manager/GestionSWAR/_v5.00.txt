@@ -1,0 +1,42 @@
+Répertoire GestionSWAR
+A partir de la version v5.00 ne sont plus utilisés :
+
+SwarListDir			remplacé par apiListOfUpdatedFiles
+SwarListFiles		remplacé par apiListOfUpdatedFiles
+SwarListFiles-v441	remplacé par apiListOfUpdatedFiles
+SwarResultProcess_2	supprimé
+SwarResultUpl		remplacé par apiTournamentUpload et SwarTournamentUpload
+SwarResultUpl_2		remplacé par apiTournamentUpload et SwarTournamentUpload
+SwarResults			remplacé par apiRatingReportIntoBase
+SwarEmail			remplacé par SwarRatingReportEmail
+
+Un message d'avertissement se trouve dans :
+SwarWarning.php, à mettre dans les scripts ci-dessus
+
+===============================================================================================
+
+En prévision du transfert de GestionSWAR et des fichiers sur un nouveau serveur,
+il faudra modifier tous les scripts de résultats se trouvant dans GestionSWAR/Uploaded/xxx/*.html
+en modifiant l'adresse de l'ancien site par l'adresse du nouveau.
+Pour se faire, 2 scripts :
+GmaReplaceHttpsFrbeInSwarResults.php qui peut être testé avec la variable '$backup   = true; '
+On vérifiera que tous les scripts originaux s'appellent *.html.bak et les nouveaux seront *.html
+
+Par après, avant de faire la modification définitive, il faudra mettre cette variable à 'false',
+afin de ne plus avoir les fichiers .bak
+Il faudra alors exécuter GmaRestoreResults.php pour rétablir les originaux.
+
+Les scripts seront alors transférés sur le nouveau site
+La base 'swar_results' sera créée sur le nouveau site
+Le script GmaReplaceHttpsFrbeInSwarResults.php sera exécuté pour faire le remplacement des adresses
+Le script SwarReset.php seraz exé&cuter pour recréé la base à partir des fichiers .html
+
+Il faut aussi transférer ces répertoires:
+	css
+	flags
+	GestionCOMMON
+	include
+	js
+	logos
+	Pic
+	
