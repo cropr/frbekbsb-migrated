@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #fff;
+	font: small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.odd {
+	background-color: #fff;
+}
+.even {
+	background-color: #ccc;
+}
+.resultat {
+	text-align: center;
+}
+.connexion {
+	text-align: right;
+}

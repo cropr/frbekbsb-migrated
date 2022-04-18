@@ -1,0 +1,137 @@
+/* Mise en page */
+h1 {
+	font-size: large;
+	font-family: Verdana, Arial, Helvetica, serif;
+	background-color: #CCCCCC;
+}
+
+h2 {
+	font-size: large;
+	font-family: Verdana, Arial, Helvetica, serif;
+	background-color: #CCCCCC;
+}
+
+body {
+	font-size: x-small;
+	font-family: Verdana, Arial, Helvetica, serif;
+	background-color: #CCCCCC;
+}
+#table1 {
+	margin:auto;
+	border-style:solid;
+}
+#table1  td {
+	border-style:none;
+}
+
+table {
+	border-collapse: collapse;
+	margin:auto;
+	border: 2px outset green;
+}
+
+caption{
+	font-size: larger;
+	font-weight: bold;
+	margin:auto;
+	margin-bottom: 12px;
+}
+
+th, td{
+	font-size: x-small;
+	border: 1px solid black;
+	background-color: #D5F4DE;
+}
+
+th{
+   background-color: #006600;
+   color: white;
+}
+
+table input,select{
+	font-size: x-small;
+	font-family: Verdana, Arial, Helvetica, serif;
+	//border-style:none;
+}
+
+span{
+	color: #FF0000;
+	background-color: #FFFF00;
+	font-weight: bold;
+}
+
+#boutons{
+    width:800px;
+    margin:auto;
+    padding:3px;
+}
+
+#msg1{
+    width:250px;
+    margin:auto;
+    padding:0px;
+    background-color: #67ff5e;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    font-size: x-small;
+    color:blue;
+    font-family: Verdana, Arial, Helvetica, serif;
+}
+
+#msg{
+     width:800px;
+     margin:auto;
+     padding:3px;
+     background-color:yellow;
+     font-weight: bold;
+     margin-bottom: 5px;
+     margin-top: 5px;
+     font-size: x-small;
+     color:blue;
+     font-family: Verdana, Arial, Helvetica, serif;
+ }
+
+#msg p{
+	margin:0;
+}
+.div_ins{
+	margin:auto;
+	width:80%;
+}
+
+.div_ins td{
+	width:auto;
+	text-align:right;
+	border-style:none;
+}
+.div_ins td div{
+	background-color: #D5F4DE;
+}
+.div_ins td input{
+	align:left;
+}
+
+.div_ins fieldset{
+	border-color:#008000;
+	border-style:solid;
+	border-width:2px;
+}
+.div_ins fieldset legend{
+	font-size: small;
+	font-weight: bold;
+	color:blue;
+	font-family: Verdana, Arial, Helvetica, serif;
+}
+
+#val_rnd {
+	 width:35px;
+ }
+
+#num_rd_check {
+	width:35px;
+}
+
+#num_club_icn {
+	width:45px;
+}

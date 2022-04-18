@@ -1,0 +1,1 @@
+﻿update "Part24L.DBF" set  "Part24L.DBF".SENDFIDE=False

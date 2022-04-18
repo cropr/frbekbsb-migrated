@@ -1,0 +1,89 @@
+/* Mise en page */
+body {
+	font-size: 0.6em;
+	font-family: Verdana, Arial, Helvetica, serif;
+	background-color: #CCCCCC;
+}
+#table1 {
+	margin:auto;
+	border-style:solid;
+}
+#table1  td {
+	border-style:none;
+}
+
+#table1  input {
+//border-style:solid;
+}
+
+table {
+	border-collapse: collapse;
+	margin:auto;
+	border: 2px outset green;
+}
+
+caption{
+	font-size: 2em;
+	font-weight: bold;
+	margin:auto;
+	margin-bottom: 12px;
+}
+
+th, td{
+	border: 1px solid black;
+	background-color: #D5F4DE;
+}
+
+th{
+   background-color: #006600;
+   color: white;
+}
+
+table input{
+	font-size: 1em;
+	font-family: Verdana, Arial, Helvetica, serif;
+	//border-style:none;
+}
+
+span{
+	color: #FF0000;
+	background-color: #FFFF00;
+	font-weight: bold;
+}
+
+#msg{
+	width:640px;
+	margin:auto;
+	padding:3px;
+	background-color:yellow;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 1em;
+	color:red;
+	font-family: Verdana, Arial, Helvetica, serif;
+}
+#msg p{
+	margin:0;
+}
+.div_ins{
+	margin:auto;
+	width:80%;
+}
+
+.div_ins td{
+	width:50%;
+	text-align:right;
+	border-style:none;
+}
+.div_ins td div{
+	background-color: #D5F4DE;
+}
+.div_ins td input{
+	align:left;
+}
+
+.div_ins textarea{
+	font-family: Verdana, Arial, Helvetica, serif;
+}
+

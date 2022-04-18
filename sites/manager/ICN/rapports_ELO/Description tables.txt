@@ -1,0 +1,85 @@
+Table tournois
+-----------------
+Formulaire de création de tournois
+Listing des tournois 
+L'édition des caractéristiques du tournoi ne peut se faire que seulement sur les tournois du club, ligue ou fédé qui les a créés
+Idem pour l'Encodage parties 
+************
+
+
+Code, ID, Identificateur tournoi
+Organisateur intitulé
+N° club, ligue, fédération
+Name tournoi, intitulé
+City, endroit, lieu
+Nbr Players
+System 24L, Grille (Round Robin, Dbl Round Robin)
+Division
+Serie
+Nbr. rounds
+Date des rondes
+Start
+End
+Date received
+Arbitre, responsable, directeur tournois
+Arbitre adjoint
+Contact Email
+Time control, Cadence: 90min/40moves+30min/end+30sec increment per move starting from move 1
+Tie break:	 Sonneborn-Berger for teams
+Pairing software:
+Internet homeopage URL
+Tel
+GSM
+Adresse
+Remarks, Note
+Date Registered:
+Submitted by
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Table parties
+-----------------
+Code, ID tournoi
+Date
+MatriculeBlanc
+MatriculeNoir
+Score 1-0, 0-1, 1/2-1/2, 1/2-0, 0-1/2, 1ff-0, 1/2ff-1/2ff, 0-1ff
+
+Envoyée ELO belge
+Envoyée ELO FIDE
+
+
+en relation avec p_playerxxxx
+-----------------
+
+NomPrBlanc auto completion
+NomPrNoir  auto completion
+
+EloBlanc
+EloNoir
+
+ClubBlanc
+ClubNoir
+
+FIDE-ID Blanc
+FIDE-ID Noir
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+105min/40moves+15min/end
+120min/40moves+15min/end+30sec/move from move 40
+120min/40moves+30min/end
+120min/10moves+30min/end+30sec/move from move 40
+120min/end
+150min/end
+60min/end
+60min/end+30sec/move from move 1
+65min/end
+75min/end+30sec/move from move 1
+90min/40moves+15min/end+30sec/move from move 1
+90min/end+30sec/move from move 1
+90min/40moves+30min/end+30sec/move from move 1
+
+
+
+

@@ -1,0 +1,2 @@
+UPDATE `i_resultequ` SET `Ff_Equ1` = '+' WHERE `Division` = 5 AND `Serie` = 'H' AND `Nom_Equ1` = 'Mons 3' AND Num_Rnd>0;
+UPDATE `i_resultequ` SET `Ff_Equ2` = '+' WHERE `Division` = 5 AND `Serie` = 'H' AND `Nom_Equ2` = 'Mons 3' AND Num_Rnd>0;

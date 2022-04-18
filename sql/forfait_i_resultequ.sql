@@ -1,0 +1,2 @@
+update `i_resultequ` set `Ff_Equ1`='+' WHERE `Division` = 4 AND `Serie` LIKE 'B%' AND `Num_Club1` = 604 AND `Num_Rnd` > 2
+update `i_resultequ` set `Ff_Equ2`='+' WHERE `Division` = 4 AND `Serie` LIKE 'B%' AND `Num_Club2` = 604 AND `Num_Rnd` > 2

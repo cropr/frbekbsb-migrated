@@ -1,0 +1,1 @@
+UPDATE `i_listeforce` SET `Elo_Adapte`=NULL, `Elo_Icn`=`Elo`, Differ=NULL, `Division`=NULL, `Serie`=NULL, `Num_Equ`=NULL, `Nom_Equ`=NULL WHERE `Club_Icn`=???

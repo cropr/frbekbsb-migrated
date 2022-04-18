@@ -1,0 +1,156 @@
+  ____________________________________________________________________________________
+
+     Rapport de vérification de l'alignement des joueurs en Interclubs nationaux
+  ____________________________________________________________________________________
+
+Prt: 69 - Rd: 1 - Div: 1 - Sr: A - N°Eq: 9 - Tb: 5 - Clb: 402 - Mat. 5142 - FORFAIT
+Prt: 657 - Rd: 1 - Div: 4 - Sr: B - N°Eq: 9 - Tb: 1 - Clb: 228 - Mat. 43419 - FORFAIT
+Prt: 705 - Rd: 1 - Div: 4 - Sr: C - N°Eq: 9 - Tb: 1 - Clb: 228 - Mat. 353 - FORFAIT
+Prt: 1152 - Rd: 1 - Div: 5 - Sr: D - N°Eq: 12 - Tb: 4 - Clb: 475 - Mat. 10758 - Mauvais alignement ELO du joueur 
+Prt: 1184 - Rd: 1 - Div: 5 - Sr: E - N°Eq: 8 - Tb: 4 - Clb: 108 - Mat. 0 - FORFAIT
+Prt: 1250 - Rd: 1 - Div: 5 - Sr: G - N°Eq: 1 - Tb: 2 - Clb: 261 - Mat. 12670 - Jr aligné dans mauvaise division!
+Prt: 1250 - Rd: 1 - Div: 5 - Sr: G - N°Eq: 1 - Tb: 2 - Clb: 261 - Mat. 12670 - Mauvais alignement ELO du joueur 
+Prt: 1371 - Rd: 1 - Div: 5 - Sr: I - N°Eq: 7 - Tb: 3 - Clb: 547 - Mat. 56871 - FORFAIT
+Prt: 1432 - Rd: 1 - Div: 5 - Sr: J - N°Eq: 10 - Tb: 4 - Clb: 910 - Mat. 60658 - Mauvais alignement ELO du joueur 
+Prt: 1458 - Rd: 1 - Div: 5 - Sr: K - N°Eq: 5 - Tb: 2 - Clb: 810 - Mat. 76694 - Jr aligné dans mauvaise série!
+Prt: 1554 - Rd: 1 - Div: 5 - Sr: M - N°Eq: 5 - Tb: 2 - Clb: 622 - Mat. 65277 - Mauvais alignement ELO du joueur 
+
+Prt: 2241 - Rd: 2 - Div: 4 - Sr: B - N°Eq: 9 - Tb: 1 - Clb: 228 - Mat. 43419 - FORFAIT
+Prt: 2289 - Rd: 2 - Div: 4 - Sr: C - N°Eq: 9 - Tb: 1 - Clb: 228 - Mat. 353 - FORFAIT
+Prt: 2290 - Rd: 2 - Div: 4 - Sr: C - N°Eq: 9 - Tb: 2 - Clb: 228 - Mat. 77445 - FORFAIT
+Prt: 2328 - Rd: 2 - Div: 4 - Sr: D - N°Eq: 6 - Tb: 4 - Clb: 523 - Mat. 64262 - Mauvais alignement ELO du joueur 
+Prt: 2757 - Rd: 2 - Div: 5 - Sr: E - N°Eq: 6 - Tb: 1 - Clb: 124 - Mat. 17388 - Jr aligné dans mauvaise série!
+Prt: 2925 - Rd: 2 - Div: 5 - Sr: H - N°Eq: 12 - Tb: 1 - Clb: 243 - Mat. 19810 - FORFAIT
+Prt: 2928 - Rd: 2 - Div: 5 - Sr: H - N°Eq: 12 - Tb: 4 - Clb: 243 - Mat. 34240 - FORFAIT
+Prt: 3042 - Rd: 2 - Div: 5 - Sr: K - N°Eq: 5 - Tb: 2 - Clb: 810 - Mat. 78042 - Jr aligné dans mauvaise série!
+Prt: 3089 - Rd: 2 - Div: 5 - Sr: L - N°Eq: 5 - Tb: 1 - Clb: 733 - Mat. 12254 - FORFAIT
+
+Prt: 3571 - Rd: 3 - Div: 3 - Sr: B - N°Eq: 8 - Tb: 1 - Clb: 290 - Mat. 41831 - FORFAIT
+Prt: 3676 - Rd: 3 - Div: 3 - Sr: D - N°Eq: 1 - Tb: 4 - Clb: 109 - Mat. 0 - FORFAIT
+Prt: 3956 - Rd: 3 - Div: 4 - Sr: E - N°Eq: 5 - Tb: 4 - Clb: 358 - Mat. 24198 - FORFAIT
+Prt: 4070 - Rd: 3 - Div: 4 - Sr: G - N°Eq: 10 - Tb: 2 - Clb: 910 - Mat. 0 - FORFAIT
+Prt: 4105 - Rd: 3 - Div: 4 - Sr: H - N°Eq: 7 - Tb: 1 - Clb: 727 - Mat. 36528 - FORFAIT
+Prt: 4177 - Rd: 3 - Div: 5 - Sr: B - N°Eq: 1 - Tb: 1 - Clb: 410 - Mat. 31607 - Jr aligné dans mauvaise série!
+Prt: 4538 - Rd: 3 - Div: 5 - Sr: I - N°Eq: 7 - Tb: 2 - Clb: 547 - Mat. 62782 - FORFAIT
+Prt: 4557 - Rd: 3 - Div: 5 - Sr: I - N°Eq: 12 - Tb: 1 - Clb: 533 - Mat. 68331 - FORFAIT
+Prt: 4598 - Rd: 3 - Div: 5 - Sr: J - N°Eq: 10 - Tb: 2 - Clb: 910 - Mat. 0 - FORFAIT
+Prt: 4625 - Rd: 3 - Div: 5 - Sr: K - N°Eq: 5 - Tb: 1 - Clb: 810 - Mat. 76694 - Jr aligné dans mauvaise série!
+Prt: 4626 - Rd: 3 - Div: 5 - Sr: K - N°Eq: 5 - Tb: 2 - Clb: 810 - Mat. 78620 - Jr aligné dans mauvaise série!
+Prt: 4673 - Rd: 3 - Div: 5 - Sr: L - N°Eq: 5 - Tb: 1 - Clb: 733 - Mat. 10014 - FORFAIT
+
+Prt: 4909 - Rd: 4 - Div: 2 - Sr: A - N°Eq: 8 - Tb: 5 - Clb: 101 - Mat. 11673 - FORFAIT
+Prt: 5017 - Rd: 4 - Div: 2 - Sr: B - N°Eq: 10 - Tb: 1 - Clb: 244 - Mat. 70653 - FORFAIT
+Prt: 5173 - Rd: 4 - Div: 3 - Sr: B - N°Eq: 11 - Tb: 1 - Clb: 244 - Mat. 25844 - FORFAIT
+Prt: 5356 - Rd: 4 - Div: 4 - Sr: A - N°Eq: 7 - Tb: 4 - Clb: 135 - Mat. 37427 - FORFAIT
+Prt: 5496 - Rd: 4 - Div: 4 - Sr: D - N°Eq: 6 - Tb: 4 - Clb: 523 - Mat. 64262 - Mauvais alignement ELO du joueur 
+Prt: 5545 - Rd: 4 - Div: 4 - Sr: E - N°Eq: 7 - Tb: 1 - Clb: 352 - Mat. 0 - FORFAIT
+Prt: 5796 - Rd: 4 - Div: 5 - Sr: B - N°Eq: 9 - Tb: 4 - Clb: 402 - Mat. 0 - FORFAIT
+Prt: 5927 - Rd: 4 - Div: 5 - Sr: E - N°Eq: 6 - Tb: 3 - Clb: 124 - Mat. 0 - FORFAIT
+Prt: 6096 - Rd: 4 - Div: 5 - Sr: H - N°Eq: 12 - Tb: 4 - Clb: 243 - Mat. 42528 - FORFAIT
+Prt: 6125 - Rd: 4 - Div: 5 - Sr: I - N°Eq: 8 - Tb: 1 - Clb: 501 - Mat. 64441 - FORFAIT
+Prt: 6176 - Rd: 4 - Div: 5 - Sr: J - N°Eq: 8 - Tb: 4 - Clb: 501 - Mat. 64301 - FORFAIT
+Prt: 6181 - Rd: 4 - Div: 5 - Sr: J - N°Eq: 10 - Tb: 1 - Clb: 910 - Mat. 0 - FORFAIT
+Prt: 6214 - Rd: 4 - Div: 5 - Sr: K - N°Eq: 6 - Tb: 2 - Clb: 624 - Mat. 97268 - FORFAIT
+Prt: 6230 - Rd: 4 - Div: 5 - Sr: K - N°Eq: 10 - Tb: 2 - Clb: 910 - Mat. 0 - FORFAIT
+
+Prt: 6528 - Rd: 5 - Div: 2 - Sr: A - N°Eq: 12 - Tb: 8 - Clb: 340 - Mat. 4227 - FORFAIT
+Prt: 6743 - Rd: 5 - Div: 3 - Sr: B - N°Eq: 8 - Tb: 5 - Clb: 290 - Mat. 92452 - FORFAIT
+Prt: 6845 - Rd: 5 - Div: 3 - Sr: D - N°Eq: 1 - Tb: 5 - Clb: 109 - Mat. 17876 - FORFAIT
+Prt: 6888 - Rd: 5 - Div: 3 - Sr: D - N°Eq: 8 - Tb: 6 - Clb: 322 - Mat. 4316 - Jr PAS dans LF
+Prt: 7013 - Rd: 5 - Div: 4 - Sr: C - N°Eq: 2 - Tb: 1 - Clb: 951 - Mat. 63797 - FORFAIT
+Prt: 7080 - Rd: 5 - Div: 4 - Sr: D - N°Eq: 6 - Tb: 4 - Clb: 523 - Mat. 64262 - Mauvais alignement ELO du joueur 
+Prt: 7821 - Rd: 5 - Div: 5 - Sr: K - N°Eq: 12 - Tb: 1 - Clb: 956 - Mat. 34185 - FORFAIT
+
+Prt: 7923 - Rd: 6 - Div: 1 - Sr: A - N°Eq: 1 - Tb: 3 - Clb: 604 - Mat. 27 - Mauvais alignement ELO du joueur 
+Prt: 8270 - Rd: 6 - Div: 3 - Sr: A - N°Eq: 11 - Tb: 2 - Clb: 703 - Mat. 26069 - FORFAIT
+Prt: 8377 - Rd: 6 - Div: 3 - Sr: C - N°Eq: 5 - Tb: 1 - Clb: 166 - Mat. 17132 - FORFAIT
+Prt: 8561 - Rd: 6 - Div: 4 - Sr: B - N°Eq: 5 - Tb: 1 - Clb: 166 - Mat. 21199 - FORFAIT
+Prt: 8567 - Rd: 6 - Div: 4 - Sr: B - N°Eq: 6 - Tb: 3 - Clb: 240 - Mat. 25411 - Mauvais alignement ELO du joueur 
+Prt: 9236 - Rd: 6 - Div: 5 - Sr: H - N°Eq: 5 - Tb: 4 - Clb: 244 - Mat. 72346 - Mauvais alignement ELO du joueur 
+Prt: 9344 - Rd: 6 - Div: 5 - Sr: J - N°Eq: 8 - Tb: 4 - Clb: 501 - Mat. 70891 - FORFAIT
+
+Prt: 9914 - Rd: 7 - Div: 3 - Sr: B - N°Eq: 9 - Tb: 2 - Clb: 114 - Mat. 32212 - FORFAIT
+Prt: 9915 - Rd: 7 - Div: 3 - Sr: B - N°Eq: 9 - Tb: 3 - Clb: 114 - Mat. 5169 - FORFAIT
+Prt: 9921 - Rd: 7 - Div: 3 - Sr: B - N°Eq: 10 - Tb: 3 - Clb: 201 - Mat. 9067 - Mauvais alignement ELO du joueur 
+Prt: 10161 - Rd: 7 - Div: 4 - Sr: B - N°Eq: 9 - Tb: 1 - Clb: 228 - Mat. 43419 - FORFAIT
+Prt: 10229 - Rd: 7 - Div: 4 - Sr: D - N°Eq: 2 - Tb: 1 - Clb: 505 - Mat. 92002 - FORFAIT
+Prt: 10357 - Rd: 7 - Div: 4 - Sr: F - N°Eq: 10 - Tb: 1 - Clb: 475 - Mat. 0 - FORFAIT
+Prt: 10508 - Rd: 7 - Div: 5 - Sr: A - N°Eq: 11 - Tb: 4 - Clb: 309 - Mat. 54640 - Mauvais alignement ELO du joueur 
+Prt: 10549 - Rd: 7 - Div: 5 - Sr: B - N°Eq: 10 - Tb: 1 - Clb: 475 - Mat. 0 - FORFAIT
+
+Prt: 11595 - Rd: 8 - Div: 3 - Sr: D - N°Eq: 1 - Tb: 3 - Clb: 109 - Mat. 37125 - FORFAIT
+Prt: 11729 - Rd: 8 - Div: 4 - Sr: B - N°Eq: 5 - Tb: 1 - Clb: 166 - Mat. 23281 - FORFAIT
+Prt: 11881 - Rd: 8 - Div: 4 - Sr: E - N°Eq: 7 - Tb: 1 - Clb: 352 - Mat. 0 - FORFAIT
+Prt: 11882 - Rd: 8 - Div: 4 - Sr: E - N°Eq: 7 - Tb: 2 - Clb: 352 - Mat. 0 - FORFAIT
+Prt: 12280 - Rd: 8 - Div: 5 - Sr: E - N°Eq: 10 - Tb: 4 - Clb: 123 - Mat. 31089 - Jr PAS dans LF
+Prt: 12305 - Rd: 8 - Div: 5 - Sr: F - N°Eq: 5 - Tb: 1 - Clb: 166 - Mat. 53775 - FORFAIT
+Prt: 12306 - Rd: 8 - Div: 5 - Sr: F - N°Eq: 5 - Tb: 2 - Clb: 166 - Mat. 57860 - FORFAIT
+Prt: 12338 - Rd: 8 - Div: 5 - Sr: G - N°Eq: 1 - Tb: 2 - Clb: 261 - Mat. 14699 - Mauvais alignement ELO du joueur 
+Prt: 12517 - Rd: 8 - Div: 5 - Sr: J - N°Eq: 10 - Tb: 1 - Clb: 910 - Mat. 0 - FORFAIT
+
+Prt: 12765 - Rd: 9 - Div: 1 - Sr: A - N°Eq: 12 - Tb: 5 - Clb: 243 - Mat. 6084 - FORFAIT
+Prt: 12865 - Rd: 9 - Div: 2 - Sr: B - N°Eq: 1 - Tb: 1 - Clb: 109 - Mat. 21067 - FORFAIT
+Prt: 12866 - Rd: 9 - Div: 2 - Sr: B - N°Eq: 1 - Tb: 2 - Clb: 109 - Mat. 18091 - FORFAIT
+Prt: 12873 - Rd: 9 - Div: 2 - Sr: B - N°Eq: 2 - Tb: 1 - Clb: 501 - Mat. 70823 - FORFAIT
+Prt: 13080 - Rd: 9 - Div: 3 - Sr: B - N°Eq: 8 - Tb: 6 - Clb: 290 - Mat. 94625 - FORFAIT
+Prt: 13306 - Rd: 9 - Div: 4 - Sr: B - N°Eq: 3 - Tb: 2 - Clb: 174 - Mat. 1619 - FORFAIT
+Prt: 13373 - Rd: 9 - Div: 4 - Sr: C - N°Eq: 8 - Tb: 1 - Clb: 501 - Mat. 78301 - FORFAIT
+Prt: 13435 - Rd: 9 - Div: 4 - Sr: D - N°Eq: 11 - Tb: 3 - Clb: 521 - Mat. 71251 - FORFAIT
+Prt: 13436 - Rd: 9 - Div: 4 - Sr: D - N°Eq: 11 - Tb: 4 - Clb: 521 - Mat. 87840 - FORFAIT
+Prt: 13493 - Rd: 9 - Div: 4 - Sr: F - N°Eq: 2 - Tb: 1 - Clb: 410 - Mat. 13609 - FORFAIT
+Prt: 13541 - Rd: 9 - Div: 4 - Sr: G - N°Eq: 2 - Tb: 1 - Clb: 901 - Mat. 82571 - FORFAIT
+Prt: 13589 - Rd: 9 - Div: 4 - Sr: H - N°Eq: 2 - Tb: 1 - Clb: 901 - Mat. 11720 - FORFAIT
+Prt: 13637 - Rd: 9 - Div: 5 - Sr: A - N°Eq: 2 - Tb: 1 - Clb: 313 - Mat. 0 - FORFAIT
+Prt: 13788 - Rd: 9 - Div: 5 - Sr: D - N°Eq: 3 - Tb: 4 - Clb: 462 - Mat. 23922 - FORFAIT
+Prt: 13834 - Rd: 9 - Div: 5 - Sr: E - N°Eq: 3 - Tb: 2 - Clb: 174 - Mat. 17825 - Mauvais alignement ELO du joueur 
+Prt: 14005 - Rd: 9 - Div: 5 - Sr: H - N°Eq: 10 - Tb: 1 - Clb: 260 - Mat. 11070 - Jr aligné dans mauvaise série!
+Prt: 14080 - Rd: 9 - Div: 5 - Sr: J - N°Eq: 4 - Tb: 4 - Clb: 203 - Mat. 0 - FORFAIT
+Prt: 14103 - Rd: 9 - Div: 5 - Sr: J - N°Eq: 10 - Tb: 3 - Clb: 910 - Mat. 60658 - FORFAIT
+Prt: 14109 - Rd: 9 - Div: 5 - Sr: J - N°Eq: 12 - Tb: 1 - Clb: 533 - Mat. 64068 - FORFAIT
+Prt: 14121 - Rd: 9 - Div: 5 - Sr: K - N°Eq: 3 - Tb: 1 - Clb: 601 - Mat. 2160 - FORFAIT
+
+Prt: 14581 - Rd: 10 - Div: 3 - Sr: A - N°Eq: 7 - Tb: 1 - Clb: 727 - Mat. 44041 - FORFAIT
+Prt: 14584 - Rd: 10 - Div: 3 - Sr: A - N°Eq: 7 - Tb: 4 - Clb: 727 - Mat. 6696 - FORFAIT
+Prt: 14680 - Rd: 10 - Div: 3 - Sr: B - N°Eq: 11 - Tb: 4 - Clb: 244 - Mat. 69639 - FORFAIT
+Prt: 14974 - Rd: 10 - Div: 4 - Sr: C - N°Eq: 12 - Tb: 2 - Clb: 266 - Mat. 51136 - Mauvais alignement ELO du joueur 
+Prt: 14995 - Rd: 10 - Div: 4 - Sr: D - N°Eq: 5 - Tb: 3 - Clb: 541 - Mat. 84735 - Mauvais alignement ELO du joueur 
+Prt: 15408 - Rd: 10 - Div: 5 - Sr: D - N°Eq: 12 - Tb: 4 - Clb: 475 - Mat. 9377 - Mauvais alignement ELO du joueur 
+Prt: 15416 - Rd: 10 - Div: 5 - Sr: E - N°Eq: 2 - Tb: 4 - Clb: 132 - Mat. 0 - FORFAIT
+Prt: 15473 - Rd: 10 - Div: 5 - Sr: F - N°Eq: 5 - Tb: 1 - Clb: 166 - Mat. 0 - FORFAIT
+Prt: 15474 - Rd: 10 - Div: 5 - Sr: F - N°Eq: 5 - Tb: 2 - Clb: 166 - Mat. 0 - FORFAIT
+Prt: 15525 - Rd: 10 - Div: 5 - Sr: G - N°Eq: 6 - Tb: 1 - Clb: 135 - Mat. 0 - FORFAIT
+Prt: 15597 - Rd: 10 - Div: 5 - Sr: H - N°Eq: 12 - Tb: 1 - Clb: 243 - Mat. 0 - FORFAIT
+Prt: 15598 - Rd: 10 - Div: 5 - Sr: H - N°Eq: 12 - Tb: 2 - Clb: 243 - Mat. 0 - FORFAIT
+Prt: 15691 - Rd: 10 - Div: 5 - Sr: J - N°Eq: 11 - Tb: 3 - Clb: 460 - Mat. 53449 - Mauvais alignement ELO du joueur 
+Prt: 15820 - Rd: 10 - Div: 5 - Sr: M - N°Eq: 7 - Tb: 4 - Clb: 813 - Mat. 61701 - FORFAIT
+Prt: 15825 - Rd: 10 - Div: 5 - Sr: M - N°Eq: 9 - Tb: 1 - Clb: 618 - Mat. 63568 - FORFAIT
+
+Prt: 16291 - Rd: 11 - Div: 3 - Sr: C - N°Eq: 4 - Tb: 1 - Clb: 418 - Mat. 42161 - FORFAIT
+Prt: 16298 - Rd: 11 - Div: 3 - Sr: C - N°Eq: 5 - Tb: 2 - Clb: 166 - Mat. 0 - FORFAIT
+Prt: 16432 - Rd: 11 - Div: 4 - Sr: A - N°Eq: 4 - Tb: 4 - Clb: 128 - Mat. 7323 - FORFAIT
+Prt: 16500 - Rd: 11 - Div: 4 - Sr: B - N°Eq: 9 - Tb: 4 - Clb: 228 - Mat. 28681 - FORFAIT
+Prt: 16948 - Rd: 11 - Div: 5 - Sr: D - N°Eq: 1 - Tb: 4 - Clb: 109 - Mat. 0 - FORFAIT
+Prt: 16963 - Rd: 11 - Div: 5 - Sr: D - N°Eq: 5 - Tb: 3 - Clb: 425 - Mat. 20443 - FORFAIT
+Prt: 17057 - Rd: 11 - Div: 5 - Sr: F - N°Eq: 5 - Tb: 1 - Clb: 166 - Mat. 0 - FORFAIT
+Prt: 17085 - Rd: 11 - Div: 5 - Sr: F - N°Eq: 12 - Tb: 1 - Clb: 187 - Mat. 0 - FORFAIT
+Prt: 17086 - Rd: 11 - Div: 5 - Sr: F - N°Eq: 12 - Tb: 2 - Clb: 187 - Mat. 0 - FORFAIT
+Prt: 17087 - Rd: 11 - Div: 5 - Sr: F - N°Eq: 12 - Tb: 3 - Clb: 187 - Mat. 0 - FORFAIT
+Prt: 17088 - Rd: 11 - Div: 5 - Sr: F - N°Eq: 12 - Tb: 4 - Clb: 187 - Mat. 0 - FORFAIT
+Prt: 17089 - Rd: 11 - Div: 5 - Sr: G - N°Eq: 1 - Tb: 1 - Clb: 261 - Mat. 0 - FORFAIT
+Prt: 17090 - Rd: 11 - Div: 5 - Sr: G - N°Eq: 1 - Tb: 2 - Clb: 261 - Mat. 0 - FORFAIT
+Prt: 17101 - Rd: 11 - Div: 5 - Sr: G - N°Eq: 4 - Tb: 1 - Clb: 130 - Mat. 4367 - Jr aligné dans mauvaise série!
+Prt: 17186 - Rd: 11 - Div: 5 - Sr: I - N°Eq: 1 - Tb: 2 - Clb: 506 - Mat. 62626 - FORFAIT
+Prt: 17187 - Rd: 11 - Div: 5 - Sr: I - N°Eq: 1 - Tb: 3 - Clb: 506 - Mat. 75345 - FORFAIT
+Prt: 17189 - Rd: 11 - Div: 5 - Sr: I - N°Eq: 2 - Tb: 1 - Clb: 511 - Mat. 0 - FORFAIT
+Prt: 17278 - Rd: 11 - Div: 5 - Sr: J - N°Eq: 12 - Tb: 2 - Clb: 533 - Mat. 86452 - FORFAIT
+Prt: 17334 - Rd: 11 - Div: 5 - Sr: L - N°Eq: 2 - Tb: 2 - Clb: 643 - Mat. 65447 - FORFAIT
+Prt: 17345 - Rd: 11 - Div: 5 - Sr: L - N°Eq: 5 - Tb: 1 - Clb: 733 - Mat. 19143 - FORFAIT
+Prt: 17382 - Rd: 11 - Div: 5 - Sr: M - N°Eq: 2 - Tb: 2 - Clb: 643 - Mat. 65005 - FORFAIT
+  ____________________________________
+
+   Vérification historique   
+  ____________________________________
+
+Pas trouvé MATRICULE ds LF 4316
+Pas trouvé MATRICULE ds LF 31089
+Jr RESERVE 96806: alignement irrégulier Rd: 10 - Div: 4 - Sr: H - N°Equ: 9 - Tb: 3 - Clb: 607
