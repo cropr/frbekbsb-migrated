@@ -105,8 +105,8 @@ function GetPassword() {
 		$res    = mysqli_query($fpdb,$sql);
 
 
+	// CHANGED START
 
-// ------- Mail via google (ajout� le 16/02/2022) ----------------------	                                                         
 	$mail = new PHPMailer(true);                                                                                                     
 	$mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
 	$mail->IsSMTP();                                                                                                                 
@@ -117,9 +117,6 @@ function GetPassword() {
 	$mail->FromName   = 'Mail server GOOGLE';                                                                                        
 	$mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
 	$mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-	
-	// CHANGED START
-
 	$mail->Username   = "No username / passwords params in source";
 	$mail->Password   = "No username / passwords params in source";
 
