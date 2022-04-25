@@ -2,42 +2,28 @@
 
 namespace FrbeKbsb;
 
-use Google\Cloud\SecretManager\V1\SecretManagerServiceClient;
 use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+use FrbeKbsb\secrets;
+use FrbeKbsb\gmailer;
 
 
 require 'vendor/autoload.php';
 
+$mailsecret = get_secret("mail");
 
-/**
-* get the secret from the Goolge Secret Manager
-* expects that the constant GOOGLE_PROJECT_ID is defined
-*
-* @param  	string	$name: the name of the secret
-* @param  	string	$version: the version of the secret, defaults to "latest"
-* @return 	array	the value of the secret (typically a json like object)
-* @author 	Ruben Decrop
-*/
-
-
-class Mailer
-{
-    protected 
+function create_mailer() {
+    $mail = false;
+    if ($mailsecret["backend"] == "SMTP" ) {
+        $mail = new PHPMailer();
+	    $mail->IsSMTP();                                                                                                                 
+	    $mail->IsHtml(true);                                                                                                             
+	    $mail->From = $mailsecret["from"]; 
+	    $mail->Host = $mailsecret["host"];
+	    $mail->Port = $mailsecret["port"];
+    };
+    if ($mailsecret["backend"] == "GMAIL" ) {
+        $mail = new Gmailer();
+    }
+    return $mail;
 }
 
-function get_mailservice($name, $version='latest') {
-
-    static $client = null;  
-    
-    if ($client === null) {
-        $client = new SecretManagerServiceClient([
-            "credentials" => './secrets/website-kbsb-test.json'
-        ])
-    }
-    $fullname = $client->secretVersionName(GOOGLE_PROJECT_ID, $name, $version);
-    $response = $client->accessSecretVersion($fullname);
-    $payload = $response->getPayload()->getData();
-    return $payload;
-} 

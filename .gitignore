@@ -7,7 +7,7 @@
 
 # source 
 /vendor
-/config/local.php
+/settings/local.php
 /secrets/*.json
 /secrets/*.yaml
 
