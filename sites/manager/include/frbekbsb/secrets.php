@@ -1,6 +1,6 @@
 <?php
 
-namespace FrbeKbsb;
+namespace frbekbsb\secrets;
 
 require 'vendor/autoload.php';
 
@@ -15,10 +15,10 @@ $log->pushHandler(new StreamHandler('php://stdout', Logger::INFO));
 function secretmanager_client($name) {
     static $client = null;     
     if ($client === null) {
-        $client = new SecretManagerServiceClient()
+        $client = new SecretManagerServiceClient();
     }
     return $client;
-}:
+};
 
 /**
 * get the secret from the Goolge Secret Manager
@@ -31,11 +31,12 @@ function secretmanager_client($name) {
 */
 
 function get_secret($name) {
+    global $settings, $log;
     $project = $settings["GOOGLE_PROJECT"];
     $sconfig = $settings["SECRETS"][$name] or die("Secret $name not configured");
     $sname = $sconfig["name"] ?? $name;
     $manager = $sconfig["manager"] ??  "filejson";
-    $log->info("fetching secret $sname using manager $manager")
+    $log->info("fetching secret $sname using manager $manager");
     // if manager == "googlejson":
     //     version = sconfig.get("version", "latest")
     //     try:
@@ -60,11 +61,11 @@ function get_secret($name) {
     //     return yaml.safe_load(reply.payload.data)
     if ($manager == "filejson") {
         $cnt = file_get_contents('secrets/'.$sname.'.json', true);
-        return json_decode($cnt)
+        return json_decode($cnt, true);
     }
     if ($manager == "fileyaml") {
         $cnt = file_get_contents('secrets/'.$sname.'.yaml', true);
-        return yaml_parse($cnt)
+        return yaml_parse($cnt);
     }
 
     // $fullname = $client->secretVersionName(GOOGLE_PROJECT_ID, $name, $version);
