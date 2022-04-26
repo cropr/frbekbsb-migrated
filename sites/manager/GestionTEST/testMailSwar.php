@@ -9,41 +9,27 @@
 -->
 
 <?php
-include ("../include/DecryptUsrPwd.inc.php");
 
+// CHANGE OF MAILPROCESSING 
+
+use frbekbsb\mail;
+
+require_once "startup.php";
+require_once "frbekbsb/mail.php";
 
 $usr = getDecryptedUsr("");
 echo "usr vide=$usr<br>";
 $usr = getDecryptedUsr("ywbeywf 9seuzs7@y9s17.ub9 - YstsggMq");
 echo "usr vide=$usr<br>";
 
-// Import PHPMailer classes into the global namespace
-// These must be at the top of your script, not inside a function
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-require '../phpmailer/src/Exception.php';
-require '../phpmailer/src/PHPMailer.php';
-require '../phpmailer/src/SMTP.php';
+
 
 $file = 'S_FIDE.txt';
 
-	// CHANGED START
+	// CHANGE MAIL PROCESSING	
 
-	$mail = new PHPMailer(true);                                                                                                     
-	$mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-	$mail->IsSMTP();                                                                                                                 
-	$mail->IsHtml(true);                                                                                                             
-	$mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-	$mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-	$mail->From       = 'noreply@frbe-kbsb-ksb.be';                                                                                      
-	$mail->FromName   = 'Mail server GOOGLE';                                                                                        
-	$mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-	$mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-	$mail->Username   = "No username / passwords params in source";
-	$mail->Password   = "No username / passwords params in source";
+	$mail = mail\create_mailer();
 
-	// CHANGED END
-	
 	$mail->Username=getDecryptedUsr();
 	$mail->Password=getDecryptedPwd();
 	

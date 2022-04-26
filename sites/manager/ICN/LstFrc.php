@@ -1,22 +1,15 @@
 <?php
+
+// CHANGE OF MAILPROCESSING 
+
+use frbekbsb\mail;
+
+require_once "startup.php";
+require_once "frbekbsb/mail.php";
+
 session_start();
 
-/* ===== v5.2.21 ==================================
-require '../phpmailer/PHPMailerAutoload.php';
-===================================================
-*/
 
-/* ===== v6.0.3 =================================== */
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-include ("../include/DecryptUsrPwd.inc.php");
-
-require '../phpmailer/src/Exception.php';
-require '../phpmailer/src/PHPMailer.php';
-require '../phpmailer/src/SMTP.php';
-/* ================================================ */
 
 $use_utf8 = false;
 include("../Connect.inc.php");
@@ -873,24 +866,11 @@ elseif (isset($_POST['export'])) {
 //-----------------------------------------------------------------
 //        Email EXPORT liste de force
 //-----------------------------------------------------------------
-	// CHANGED START
 
-	$mail = new PHPMailer(true);                                                                                                     
-	$mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-	$mail->IsSMTP();                                                                                                                 
-	$mail->IsHtml(true);                                                                                                             
-	$mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-	$mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-	$mail->From       = 'noreply@frbe-kbsb-ksb.be';                                                                                      
-	$mail->FromName   = 'Mail server GOOGLE';                                                                                        
-	$mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-	$mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-	$mail->Username   = "No username / passwords params in source";
-	$mail->Password   = "No username / passwords params in source";
+        // CHANGE MAIL PROCESSING	
 
-	// CHANGED END
+        $mail = mail\create_mailer();
 
-		
         //$mail->AddAddress('admin@frbe-kbsb.be');
         $mail->AddCC('interclubs@frbe-kbsb-ksb.be');
         $mail->AddCC('Halleux.Daniel@gmail.com');

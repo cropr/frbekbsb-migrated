@@ -1,7 +1,12 @@
 <?php
 
-// CHANGE REQUIRED
-// handing of the email 
+// CHANGE OF MAILPROCESSING 
+
+use frbekbsb\mail;
+
+require_once "startup.php";
+require_once "frbekbsb/mail.php";
+
 
 // ---------------- INITIALISATION -------------------------------------------------------------
 // L'exp�diteur est l'administrateur (cc1)
@@ -16,23 +21,6 @@
 // Copies suppl�mentaires aux personnes d�sign�es par cc1,cc2,cc3,...
 // ----------------------------------------------------------------------------------------------
 
-/* ---------------------------------------------------- */
-/* 2021/11/19                                           */
-/* ajout du d�cryptage d'un Username/Password 20211119  */
-/* la clef se trouve dans le fichier lui-m�me           */
-/* donc les appels ne doivent pas donner la clef        */
-/* ---------------------------------------------------- */
-/* GMA 2022/02/16 : supprimer car utilisation de google */
-/* GMA require '../include/DecryptUsrPwd.inc.php';	    */
-/* ---------------------------------------------------- */   
-
-/* ===== v6.0.3 =================================== */
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-require '../phpmailer/src/Exception.php';
-require '../phpmailer/src/PHPMailer.php';
-require '../phpmailer/src/SMTP.php';
-/* ================================================ */
 	
 	$cc1=$cc2=$cc3=$cc4="";
 	
@@ -211,25 +199,10 @@ function MailContent(& $content) {
 	$content .= "</table></font></div></blockquote>\n";
 }
 
-	
-	// CHANGED START
+	// CHANGE MAIL PROCESSING	
 
-	$mail = new PHPMailer(true);                                                                                                     
-	$mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-	$mail->IsSMTP();                                                                                                                 
-	$mail->IsHtml(true);                                                                                                             
-	$mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-	$mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-	$mail->From       = 'noreply@frbe-kbsb-ksb.be';                                                                                      
-	$mail->FromName   = 'Mail server GOOGLE';                                                                                        
-	$mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-	$mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-	$mail->Username   = "No username / passwords params in source";
-	$mail->Password   = "No username / passwords params in source";
+	$mail = mail\create_mailer();
 
-	// CHANGED END
-
-	
 
 // -------------------------------------------------
 // Destinataires

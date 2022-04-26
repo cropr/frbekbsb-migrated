@@ -1,27 +1,18 @@
 <?php
 
-// CHANGE REQUIRED
-// mail handling
+// CHANGE OF MAILPROCESSING 
+
+use frbekbsb\mail;
+
+require_once "startup.php";
+require_once "frbekbsb/mail.php";
 
   // instructions de connexion � la base de donn�e
   //----------------------------------------------
 	session_start();
 	$use_utf8 = false;
-	/* --------------------------------------------------- */
-	/* 2021/11/19                                          */
-	/* ajout du d�cryptage d'un Username/Password 20211119 */
-	/* la clef se trouve dans le fichier lui-m�me          */
-	/* donc les appels ne doivent pas donner la clef       */
-	/* --------------------------------------------------- */
-	/* require '../include/DecryptUsrPwd.inc.php';         */
-	/* --------------------------------------------------- */
 	
 	include ("../include/FRBE_Connect.inc.php");
-	require '../phpmailer/src/Exception.php';
-	require '../phpmailer/src/PHPMailer.php';
-	require '../phpmailer/src/SMTP.php';
-	use PHPMailer\PHPMailer\PHPMailer;
-	use PHPMailer\PHPMailer\Exception;
 
 	header("Content-Type: text/html; charset=iso-8889-1");
 
@@ -105,22 +96,9 @@ function GetPassword() {
 		$res    = mysqli_query($fpdb,$sql);
 
 
-	// CHANGED START
+	// CHANGE MAIL PROCESSING	
 
-	$mail = new PHPMailer(true);                                                                                                     
-	$mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-	$mail->IsSMTP();                                                                                                                 
-	$mail->IsHtml(true);                                                                                                             
-	$mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-	$mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-	$mail->From       = 'noreply@frbe-kbsb.be';                                                                                      
-	$mail->FromName   = 'Mail server GOOGLE';                                                                                        
-	$mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-	$mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-	$mail->Username   = "No username / passwords params in source";
-	$mail->Password   = "No username / passwords params in source";
-
-	// CHANGED END
+	$mail = mail\create_mailer();
 
 	$content = "";                                                                                                                   
 
@@ -144,9 +122,6 @@ function GetPassword() {
 		$mail->Body=$sessMail;
 		
 
-	// CHANGED START
-
-	// send always mail, use local settings to redirect to test mail server
 	if (!$mail->Send()) {
 		$err_mail = "<font color='red'>" 
 					.Langue("Erreur d'envoi du Password par email<br>\n",
@@ -158,7 +133,6 @@ function GetPassword() {
 		$err_mail .= Langue("Nouveau Password envoy� par Email<br>","Nieuw Paswoord per mail verstuurd<br>");
 	}
 
-	// CHANGED END
 ?>
 	<html>
 	<Head>

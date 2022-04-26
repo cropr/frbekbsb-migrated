@@ -1,21 +1,14 @@
 <?php
+
+// CHANGE OF MAILPROCESSING 
+
+use frbekbsb\mail;
+
+require_once "startup.php";
+require_once "frbekbsb/mail.php";
+
 session_start();
 
-/* ===== v5.2.21 ==================================
-require '../phpmailer/PHPMailerAutoload.php';
-===================================================
-*/
-
-/* ===== v6.0.3 =================================== */
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-include ("../include/DecryptUsrPwd.inc.php");
-
-require '../phpmailer/src/Exception.php';
-require '../phpmailer/src/PHPMailer.php';
-require '../phpmailer/src/SMTP.php';
-/* ================================================ */
 
 // Affichage d'un texte dans la langue choisie
 function Lang($FR, $NL) {
@@ -915,22 +908,9 @@ else if ($_POST['id_Unlock']) {
         $text = date("d/m/Y H:i:s") . " - " . $_SESSION['Club'] . " - " . $_SESSION['insc']['AbreClub'] . " - "
             . $_SESSION['Matricule'] . " - " . $NomRespIcn . "\r\n";
 
-    // CHANGED START
+	// CHANGE MAIL PROCESSING	
 
-    $mail = new PHPMailer(true);                                                                                                     
-    $mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-    $mail->IsSMTP();                                                                                                                 
-    $mail->IsHtml(true);                                                                                                             
-    $mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-    $mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-    $mail->From       = 'noreply@frbe-kbsb-ksb.be';                                                                                      
-    $mail->FromName   = 'Mail server GOOGLE';                                                                                        
-    $mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-    $mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-    $mail->Username   = "No username / passwords params in source";
-    $mail->Password   = "No username / passwords params in source";
-
-    // CHANGED END
+	$mail = mail\create_mailer();
 
 
         $mail->AddCC('interclubs@frbe-kbsb-ksb.be');
@@ -973,22 +953,9 @@ else if ($_POST['id_Unlock']) {
             //				vers clubs non encore rencontr�s
             //-----------------------------------------------------------------
 
-          // CHANGED START
+          // CHANGE MAIL PROCESSING	
 
-          $mail = new PHPMailer(true);                                                                                                     
-          $mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-          $mail->IsSMTP();                                                                                                                 
-          $mail->IsHtml(true);                                                                                                             
-          $mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-          $mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-          $mail->From       = 'noreply@frbe-kbsb-ksb.be';                                                                                      
-          $mail->FromName   = 'Mail server GOOGLE';                                                                                        
-          $mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-          $mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-          $mail->Username   = "No username / passwords params in source";
-          $mail->Password   = "No username / passwords params in source";
-
-          // CHANGED END
+          $mail = mail\create_mailer();
 
 			//*/
 
@@ -1015,28 +982,15 @@ else if ($_POST['id_Unlock']) {
           //-----------------------------------------------------------------
           //				Email ICN-NIC change infos club => HLX,RTN
           //-----------------------------------------------------------------
+ 
+        // CHANGE MAIL PROCESSING	
 
-        // CHANGED START
-
-        $mail = new PHPMailer(true);                                                                                                     
-        $mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-        $mail->IsSMTP();                                                                                                                 
-        $mail->IsHtml(true);                                                                                                             
-        $mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-        $mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-        $mail->From       = 'noreply@frbe-kbsb-ksb.be';                                                                                      
-        $mail->FromName   = 'Mail server GOOGLE';                                                                                        
-        $mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-        $mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-        $mail->Username   = "No username / passwords params in source";
-        $mail->Password   = "No username / passwords params in source";
-
-        // CHANGED END
+        $mail = mail\create_mailer();
 
 
           //$mail->AddAddress('admin@frbe-kbsb.be');
           //$mail->AddCC('luc.cornet@telenet.be');
-		  $mail->AddCC('interclubs@frbe-kbsb-ksb.be');
+		      $mail->AddCC('interclubs@frbe-kbsb-ksb.be');
 		  
           $mail->Subject = 'ICN-NIC Change infos club ' . $expediteur;
           $mail->Body = $text;
@@ -1348,27 +1302,12 @@ else if ($_POST['id_Unlock']) {
         //Email EXPORT i_inscriptions.txt => HLX,RTN
         //-----------------------------------------------------------------
 
-      // CHANGED START
+        // CHANGE MAIL PROCESSING	
 
-      $mail = new PHPMailer(true);                                                                                                     
-      $mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-      $mail->IsSMTP();                                                                                                                 
-      $mail->IsHtml(true);                                                                                                             
-      $mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-      $mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-      $mail->From       = 'noreply@frbe-kbsb-ksb.be';                                                                                      
-      $mail->FromName   = 'Mail server GOOGLE';                                                                                        
-      $mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-      $mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-      $mail->Username   = "No username / passwords params in source";
-      $mail->Password   = "No username / passwords params in source";
-
-      // CHANGED END
+        $mail = mail\create_mailer();
 
 		
-        //$mail->AddAddress('admin@frbe-kbsb.be');
-		//$mail->AddCC('luc.cornet@telenet.be');
-		$mail->AddCC('interclubs@frbe-kbsb-ksb.be');
+		    $mail->AddCC('interclubs@frbe-kbsb-ksb.be');
         $mail->AddCC('Halleux.Daniel@gmail.com');
 
         $mail->Subject = 'ICN-NIC EXPORT i_inscriptions.txt';

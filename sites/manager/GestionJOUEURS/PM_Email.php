@@ -1,5 +1,13 @@
 <?php
-// ---------------- Notify By PHPMailer -------------------------------------------------------------
+
+// CHANGE OF MAILPROCESSING 
+
+use frbekbsb\mail;
+
+require_once "startup.php";
+require_once "frbekbsb/mail.php";
+
+
 // L'exp�diteur est l'administrateur (cc1)
 // Envoi au modificateur (to)
 // Copies aux responsables des Federation s'il y a un/des adresses Email
@@ -25,15 +33,6 @@
 	/* Supprim� le 16/02/2022                              */ 
 	/* require '../include/DecryptUsrPwd.inc.php';         */
 	/* --------------------------------------------------- */
-
-
-/* ===== v6.0.3 =================================== */
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-require '../phpmailer/src/Exception.php';
-require '../phpmailer/src/PHPMailer.php';
-require '../phpmailer/src/SMTP.php';
-/* ================================================ */
 
 
 function CheckElo($text,$val) {
@@ -280,23 +279,9 @@ function NotifyReconduction($txt,$mat,$errAdrGlobal) {
 //	echo "GMA Debug NotifyReconduction mat=$mat -txt=$txt- errAdr=$errAdr<br>";
 	$Emails=NotifyInit($txt,$mat,$klu,$errAdr,0);
 
+	// CHANGE MAIL PROCESSING	
 
-	// CHANGED START
-
-	$mail = new PHPMailer(true);                                                                                                     
-	$mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-	$mail->IsSMTP();                                                                                                                 
-	$mail->IsHtml(true);                                                                                                             
-	$mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-	$mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-	$mail->From       = 'noreply@frbe-kbsb.be';                                                                                      
-	$mail->FromName   = 'Mail server GOOGLE';                                                                                        
-	$mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-	$mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-	$mail->Username   = "No username / passwords params in source";
-	$mail->Password   = "No username / passwords params in source";
-
-	// CHANGED END
+	$mail = mail\create_mailer();
 
 	$content = "";	
 	
@@ -350,22 +335,9 @@ function NotifyByMailer($txt,$mat,$what) {
 	
 	$Emails=NotifyInit($txt,$mat,$klu,$errAdr,$what);
 
-	// CHANGED START
+	// CHANGE MAIL PROCESSING	
 
-	$mail = new PHPMailer(true);                                                                                                     
-	$mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-	$mail->IsSMTP();                                                                                                                 
-	$mail->IsHtml(true);                                                                                                             
-	$mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-	$mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-	$mail->From       = 'noreply@frbe-kbsb.be';                                                                                      
-	$mail->FromName   = 'Mail server GOOGLE';                                                                                        
-	$mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-	$mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-	$mail->Username   = "No username / passwords params in source";
-	$mail->Password   = "No username / passwords params in source";
-
-	// CHANGED END	
+	$mail = mail\create_mailer();	
 
 	$content = "";	
 	
@@ -510,22 +482,9 @@ echo "GMA: EmailLigue<pre>",print_r($EmailLigue);echo "</pre>\n";
 	$Content .= " : $mat - $nom $pre de/van <u>$klu</u> vers/naar <u>$trf</u>\n";
 	$Content .= "</body></html>\n";
 
-	// CHANGED START
+	// CHANGE MAIL PROCESSING	
 
-	$mail = new PHPMailer(true);                                                                                                     
-	$mail->SetLanguage('fr', 'phpmailer/language/');                                                                                 
-	$mail->IsSMTP();                                                                                                                 
-	$mail->IsHtml(true);                                                                                                             
-	$mail->SMTPAuth   = true;        			// enable SMTP authentication                                                        
-	$mail->SMTPSecure = "ssl";      			// sets the prefix to the server                                                     
-	$mail->From       = 'noreply@frbe-kbsb.be';                                                                                      
-	$mail->FromName   = 'Mail server GOOGLE';                                                                                        
-	$mail->Host       = 'smtp.gmail.com';						//'smtp.gmail.com'; // sets GMAIL as the SMTP server                 
-	$mail->Port       = 465; 									// set the SMTP port for the GMAIL server                            
-	$mail->Username   = "No username / passwords params in source";
-	$mail->Password   = "No username / passwords params in source";
-
-	// CHANGED END
+	$mail = mail\create_mailer();
 
 	$content = "";	
 	
