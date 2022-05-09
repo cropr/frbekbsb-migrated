@@ -10,7 +10,6 @@ use frbekbsb\secrets;
 use frbekbsb\gmailer;
 
 function create_mailer() {
-    global $settings;
     static $mailsecret = false;
     $mail = false;
     if (!$mailsecret) {

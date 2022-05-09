@@ -1,5 +1,9 @@
-﻿<?php
+<?php 
+
 session_start();
+
+require_once "startup.php";
+
 header("Content-Type: text/html; charset=iso-8889-1");
 if (!isset($_SESSION['GesClub'])) {
     header("location: ../GestionCOMMON/GestionLogin.php");
@@ -12,7 +16,9 @@ if (isset($_REQUEST['Exit']) && $_REQUEST['Exit']) {
     header("location: $url");
 }
 
-$contents = file_get_contents($_SERVER['DOCUMENT_ROOT']."/database.json");
+// TODO manage database.json
+
+$contents = file_get_contents("https://storage.googleapis.com/website-kbsb-test.appspot.com/database.json");
 $json = json_decode($contents, true);
 
 function showDate($file) {
